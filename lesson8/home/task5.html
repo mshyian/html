@@ -14,22 +14,26 @@
       * {
         box-sizing: border-box;
       }
-      .rectangle {
-        box-sizing: content-box;
+      .rectangle1 {
         font-weight: bold;
-        width: 420px;
-        height: 140px;
-        background: bisque;
-        border-top: 10px solid firebrick;
-        border-right: 20px solid chartreuse;
-        border-bottom: 10px dashed burlywood;
-        border-left: 20px dashed aqua;
-        padding: 20px;
-        margin: 50px 100px;
+        border: 2px solid black;
+        background-color: blue;
+        margin: 50px;
+        padding: 50px;
+        overflow: hidden;
+      }
+      .rectangle2 {
+        font: optional;
+        background-color: yellow;
       }
     </style>
   </head>
   <body>
-    <div class="rectangle">I am colorful rectangle</div>
+    <div class="rectangle1">
+      <div class="rectangle2"></div>
+    </div>
+
+    <div class="rectangle3"></div>
+    <div class="rectangle4"></div>
   </body>
 </html>
