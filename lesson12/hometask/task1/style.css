@@ -1,0 +1,23 @@
+html {
+  font-family: roboto, sans-serif;
+  font-size: 18 px;
+}
+section {
+  margin: 32 px;
+}
+.header {
+  word-spacing: 2opx;
+}
+p {
+  line-height: 28px;
+}
+.name {
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-family: 24px;
+  font-weight: 80%;
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+}

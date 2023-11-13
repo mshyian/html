@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main-image {
+        margin: 20 px auto 0;
+        display: block;
+        width: 30%;
+        border-radius: 10px;
+      }
+      .gallery {
+        display: flex;
+      }
+      .card {
+        display: block;
+        margin: 16px;
+        box-shadow: 0px 5px 30px -9px rgba(red, green, blue, alpha);
+      }
+      .opacity-filter {
+        filter: opacity(50%);
+      }
+      .caption {
+        line-height: 30 px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="main-image" src="love-pictures-7219.jpg" alt="rose" />
+    <div class="gallery">
+      <figure class="card">
+        <img class="opacity-filter" src="rabit.jpg" alt="opacity filter" />
+        <figcaption class="caption">Opacity</figcaption>
+      </figure>
+      <figure class="card">
+        <img class="invert-filter" src="rabit.jpg" alt="invert-filter" />
+        <figcaption class="caption">invert</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>
