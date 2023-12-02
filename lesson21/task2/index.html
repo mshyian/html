@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css"
+      integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .main-content {
+        display: flex;
+        min-height: 100vh;
+      }
+      .gallery {
+        display: flex;
+        width: 80%;
+        background-color: coral;
+      }
+      .ideas {
+        display: flex;
+        width: 20%;
+        background-color: aqua;
+      }
+      .main-image {
+        max-width: 100%;
+        margin: auto;
+        box-shadow: 0px 0px 24px 0px rgba(66, 68, 90, 1);
+      }
+      .idea {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 4px;
+        color: white;
+        margin: auto;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main-content">
+      <section class="gallery">
+        <img
+          class="main-image"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson21/task1/nature.jpeg"
+          alt="Tree on the land"
+        />
+      </section>
+      <aside class="ideas">
+        <span class="idea">keep calm</span>
+      </aside>
+    </main>
+  </body>
+</html>

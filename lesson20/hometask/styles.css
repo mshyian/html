@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+.spinner {
+  margin: auto;
+}
+.circle {
+  box-sizing: border-box;
+  height: 50px;
+  width: 50px;
+  border: 4px black lightgray;
+  margin-bottom: 8px;
+}
+.spinner-text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  text-transform: uppercase;
+  animation: blinking 2s, linear, forwards;
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

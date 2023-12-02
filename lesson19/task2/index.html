@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <style>
+      .square {
+        width: 100px;
+        height: 100px;
+        background-color: coral;
+        position: absolute;
+        animation: move 2s;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+      }
+      @keyframes move {
+        0% {
+          left: 0;
+          right: 0;
+          background-color: coral;
+        }
+        25% {
+          left: 300px;
+          top: 0;
+          background-color: aqua;
+        }
+        50% {
+          left: 200px;
+          top: 300px;
+        }
+        75% {
+          left: 0;
+          top: 300px;
+          background-color: bisque;
+        }
+        100% {
+          left: 0;
+          top: 0;
+          background-color: darkgreen;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="square"></div>
+  </body>
+</html>
