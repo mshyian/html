@@ -1,0 +1,35 @@
+@import "breakpoints.scss";
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.square {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    padding: 8px;
+    text-transform: lowercase;
+    background: white;
+    border-radius: 5px;
+  }
+
+  &:nth-child(1) {
+    background-color: #ff7f50;
+  }
+
+  &:nth-child(2) {
+    background-color: #006400;
+  }
+
+  &:nth-child(3) {
+    background-color: #0ff0ff;
+  }
+}
+
+@include for-medium-up;
+@include for-large-up;

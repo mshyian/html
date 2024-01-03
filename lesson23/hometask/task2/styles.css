@@ -1,0 +1,50 @@
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.square {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.square span {
+  padding: 8px;
+  text-transform: lowercase;
+  background: white;
+  border-radius: 5px;
+}
+.square:nth-child(1) {
+  background-color: #ff7f50;
+}
+.square:nth-child(2) {
+  background-color: #006400;
+}
+.square:nth-child(3) {
+  background-color: #0ff0ff;
+}
+
+@media screen and (min-width: 600px) {
+  .box {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .square:not(:nth-child(3)) {
+    width: 50%;
+  }
+  .square:nth-child(3) {
+    flex-grow: 1;
+  }
+}
+@media screen and (min-width: 900px) {
+  .box {
+    flex-wrap: nowrap;
+  }
+  .box .square {
+    width: unset;
+    flex-grow: 1;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
