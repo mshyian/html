@@ -16,7 +16,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/headline.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/customers.css" />
+    <link rel="stylesheet" href="styles/features.css" />
 
     <title>Document</title>
   </head>
@@ -40,10 +47,149 @@
               >Library<i class="navigation__arrow"></i>
             </a>
           </nav>
-          <button class="header__button">Get Started</button>
+          <button class="action__button">Get Started</button>
         </header>
-        <section></section>
+
+        <!-- Headline -->
+
+        <section class="headline">
+          <div class="headline__content">
+            <h1 class="headline__title">Build stunning websites & apps.</h1>
+            <p class="headline__description">
+              Create live segments and target the right people for messages
+              based on their behaviors.
+            </p>
+            <div class="headline__actions">
+              <button class="action__button">Get Started</button>
+              <button class="headline_learn_more-button">Learn More</button>
+            </div>
+          </div>
+          <img
+            class="headline__banner"
+            src="img/ouch.png"
+            alt="Headline  Banner"
+          />
+        </section>
       </div>
+
+      <!-- About -->
+
+      <section class="about">
+        <article class="article">
+          <h4 class="article__title">What is it about?</h4>
+          <p class="article__text">
+            Building a website for a startup that looks amazing is not a rocket
+            science anymore.
+          </p>
+        </article>
+        <article class="article">
+          <h4 class="article__title">Who is it for?</h4>
+          <p class="article__text">
+            Startups, small companies and teams, entrepreneurs and web
+            developers.
+          </p>
+        </article>
+      </section>
+
+      <!-- customers -->
+      <section class="customers">
+        <img
+          class="customers__logo"
+          src="img/The NY times.png"
+          alt="New York Times Logo"
+        />
+        <img class="customers__logo" src="img/Forbes.png" alt="Forbes Logo" />
+        <img class="customers__logo" src="img/Apple.png" alt="Apple Logo" />
+        <img
+          class="customers__logo"
+          src="img/Mashable.png"
+          alt="Mashable Logo"
+        />
+        <img class="customers__logo" src="img/WSJ.png" alt="WSJ Logo" />
+        <img class="customers__logo" src="img/google.png" alt="Google Logo" />
+      </section>
+
+      <!-- Features -->
+
+      <section class="features"></section>
+
+      <!-- Footer -->
+
+      <footer class="footer">
+        <div class="footer-navigation">
+          <div class="about-company">
+            <div class="logo">
+              <img class="logo__image" src="img/Icondark.png" alt="logo" />
+              <div class="logo__text">
+                <div class="logo__name">Foundation</div>
+                <div class="logo__description">Startup landing template</div>
+              </div>
+            </div>
+            <p class="footer__description">
+              Foundation is a website template for startups and small teams. It
+              helps to build a website in no time.
+            </p>
+            <div class="downloads">
+              <img
+                class="downloads__items"
+                src="img/AppStore.png"
+                alt="Apple download"
+              />
+              <img src="img/Google-Play.png" alt="Google download" />
+            </div>
+          </div>
+          <div class="additional-navigation">
+            <div class="additional-navigation__column nav-links">
+              <h3 class="nav-links__title">Product</h3>
+              <ul class="nav-links__list">
+                <li class="nav-links__list-item">Content Marketing</li>
+                <li class="nav-links__list-item">Website Templates</li>
+                <li class="nav-links__list-item">Customer Management</li>
+                <li class="nav-links__list-item">Virtual Inbox</li>
+                <li class="nav-links__list-item">Acquire Users</li>
+              </ul>
+            </div>
+            <div class="nav-links">
+              <h3 class="nav-links__title">Company</h3>
+              <ul class="nav-links__list">
+                <li class="nav-links__list-item">About Foundation</li>
+                <li class="nav-links__list-item">Brand Guidelines</li>
+                <li class="nav-links__list-item">Press Kit</li>
+                <li class="nav-links__list-item">Support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="footer-links">
+          <nav class="terms">
+            <a href="#" class="terms__items">Terms</a>
+            <a href="#" class="terms__items">Privacy</a>
+            <a href="#" class="terms__items">Licence</a>
+          </nav>
+          <div class="social-links">
+            <a
+              class="social-links__item"
+              href="https://twitter.com"
+              target="_blank"
+              ><img src="img/icon-twitter.png" alt="Twitter Link"
+            /></a>
+            <a
+              class="social-links__item"
+              href="https://facebook.com"
+              target="_blank"
+              ><img src="img/icon-fb.png" alt="Facebook Link"
+            /></a>
+            <a
+              class="social-links__item"
+              href="https://Linkedin.com"
+              target="_blank"
+              ><img src="img/LinkedIn.png" alt="Linkedin Link"
+            /></a>
+          </div>
+        </div>
+        <span></span>
+      </footer>
     </div>
   </body>
 </html>
